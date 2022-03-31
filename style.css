@@ -173,8 +173,45 @@ span
 }
 #AboutMe
 {
-    /* background-color: aqua; */
-    border: 2px solid yellowgreen;
-    color: red;
-    height: 700px;
+    /* border: 2px solid yellowgreen; */
+    /* height: 682px; */
+    color: white;
+    background-color: #131313;
+}
+.AboutMe > .row
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+.about-me-heading
+{
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid green;
+    border-top: 5px solid green;
+    font-size: 40px;
+    padding: 5px; 
+}
+.personal-info-div h2
+{
+    color: white;
+    padding: 13px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.personal-img-div 
+{ 
+    /* height: 100%; */
+    /* width: 100%;   */
+}
+.personal-img-div img
+{
+    height: 100%;
+    width: 100%;
+   
+}
+.evenspan
+{
+    color: green;
+    font-weight: bold;
 }
