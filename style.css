@@ -89,9 +89,16 @@ i
 .section-content
 {
     color: white;
-    position: relative;
-    top: 10em;
-    text-align: center
+    /* position: relative; */
+    /* top: 10em; */
+    text-align: center;
+    /* border: 10px solid yellow; */
+    /* margin-bottom: 50px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .section-content h1
 {
@@ -123,6 +130,7 @@ span
     background-color: rgb(14, 153, 14);
     border-radius: 25px;
     font-weight: bold;
+    
 }
 .contact-btn:hover
 {
@@ -168,9 +176,5 @@ span
     /* background-color: aqua; */
     border: 2px solid yellowgreen;
     color: red;
-    height: 7000px;
-    /* z-index: 5000; */
-    /* width: 100%; */
-    margin-top: 23%;
-
+    height: 700px;
 }
