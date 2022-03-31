@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 /* navigation css */
 *
 {
@@ -81,6 +84,7 @@ i
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Img/Bg-img3.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 100%;
 }
 .section-content
 {
@@ -151,4 +155,15 @@ span
     height: 5px;
     background-color: black;
     margin: 4px 0;
+}
+#AboutMe
+{
+    /* background-color: aqua; */
+    border: 2px solid yellowgreen;
+    color: red;
+    height: 7000px;
+    /* z-index: 5000; */
+    /* width: 100%; */
+    margin-top: 23%;
+
 }
