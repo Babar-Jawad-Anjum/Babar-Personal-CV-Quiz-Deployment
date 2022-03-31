@@ -195,9 +195,8 @@ span
 .personal-info-div h2
 {
     color: white;
-    padding: 13px;
-    padding-left: 60px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 .personal-img-div 
 { 
@@ -208,10 +207,66 @@ span
 {
     height: 100%;
     width: 100%;
-   
 }
 .evenspan
 {
     color: green;
     font-weight: bold;
+}
+
+
+
+
+
+
+
+.cont1
+{
+    border: 4px solid rgb(89, 110, 89);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.cont1 p
+{
+    margin-bottom: 0px;
+}
+
+.cont1:hover
+{
+    background-color: rgb(89, 110, 89);
+}
+.cont2
+{
+    border: 4px solid rgb(67, 14, 153);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.cont2 p
+{
+    margin-bottom: 0px;
+}
+.cont2:hover
+{
+    background-color: rgb(67, 14, 153);
+}
+.cont3
+{
+    border: 4px solid rgb(177, 78, 78);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.cont3 p
+{
+    margin-bottom: 0px;
+}
+.cont3:hover
+{
+    background-color: rgb(177, 78, 78);
 }
