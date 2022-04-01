@@ -271,6 +271,7 @@ span
     /* height: 900px; */
     color: white;
     background-color: #131313;
+    /* padding-top: 70px; */
 }
 .education-heading
 {
@@ -299,25 +300,25 @@ span
 }
 .school-hover-effect:hover
 {
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: rgb(0, 0, 0);
     /* font-weight: bold; */
 }
 .college-hover-effect:hover
 {
     color: black;
-    background-color: rgb(185,26, 26);
-    border: 2px solid white;
+    background-color: rgb(176, 25, 25);
+    border: 1px solid white;
 }
 .uni-hover-effect:hover
 {
     color: black;
-    background-color: rgb(33, 11, 155);
-    border: 2px solid white;
+    background-color: rgb(27, 10, 125);
+    border: 1px solid white;
 }
 .education-full-row
 {
-    border-bottom: 5px solid green;
+    /* border-bottom: 5px solid green; */
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -353,3 +354,76 @@ span
     padding: 12px;
     font-size: 17px;
 }
+
+
+/* skills section starts*/
+.skills
+{
+    color: white;
+    background-color: #131313;
+    height: 1000px;
+}
+.skills > .row
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+.skills-heading
+{
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid green;
+    border-top: 5px solid green;
+    font-size: 40px;
+    padding: 5px; 
+    margin-top: -48px;
+}
+.horizontal-progress-bar-body
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.horizontal-progress-bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.straight-progress-bar h5
+{
+    
+    display: inline-block;
+    
+}
+.straight-progress-bar h4
+{
+    display: inline;
+    float: right;
+}
+.f_e_bar
+{
+    background-color:  rgb(79, 68, 68);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.f_i_bar
+{
+    background-color:  rgb(84 224 46);
+    border-radius: 10px;
+}
+
+
+
+
+.rounded-progress-bar-body
+{
+    display: flex;
+    justify-content: center;
+}
+/* skills section ends */
