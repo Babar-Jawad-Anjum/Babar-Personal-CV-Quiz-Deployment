@@ -37,7 +37,7 @@ function hideMenuWhenClicked(e)
 
 function doBindings()
 {
-    var typed = new Typed(".auto-input", {
+    var typed = new Typed(".auto-input-text", {
         strings: ["MERN Stack Developer", "Wordpress Developer", "Jekyll Developer", "React Developer"],
         typeSpeed: 100,
         backSpeed: 50,
