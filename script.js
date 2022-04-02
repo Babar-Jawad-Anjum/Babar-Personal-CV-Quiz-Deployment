@@ -33,3 +33,15 @@ function hideMenuWhenClicked(e)
     }
     
 }
+
+
+function doBindings()
+{
+    var typed = new Typed(".auto-input", {
+        strings: ["MERN Stack Developer", "Wordpress Developer", "Jekyll Developer", "React Developer"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+    })
+}
+window.onload = doBindings;
