@@ -20,6 +20,16 @@ function spanevent()
     }
     
 }
+
+// function bodyFunction()
+// {
+//     if(flag2forbody %2 != 0)
+//     {
+//         let bodyevent = document.getElementById("myspan");
+//         // bodyevent.style.display = "none";
+//     }
+// }
+
 function hideMenuWhenClicked(e)
 {
     if(flag>0)
